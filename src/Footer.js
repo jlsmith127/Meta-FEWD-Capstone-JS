@@ -1,7 +1,8 @@
 function Footer() { 
     return (
-        <footer>
-            <ul>
+        <footer style={{display: "flex"}}>
+            <img src="./icons_assets/Logo.svg" alt="Little Lemon Logo" height="68" width="222" style={{display: "inline-flex"}} />
+            <ul style={{display: "inline-flex"}}>
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Menu</a></li>
@@ -9,8 +10,8 @@ function Footer() {
                 <li><a href="">Order Online</a></li>
                 <li><a href="">Log In</a></li>
             </ul>
-            <h3>Contact Us</h3>
-            <h3>Social Media</h3>
+            <h3 style={{display: "inline-flex"}}>Contact Us</h3>
+            <h3 style={{display: "inline-flex"}}>Social Media</h3>
         </footer>
     );
     }

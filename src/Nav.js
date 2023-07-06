@@ -2,7 +2,7 @@
 
 function Nav() { 
     return (
-        <nav>
+        <nav style={{display: "inline-flex"}}>
             
             <ul>
                 <li><a href="">Home</a></li>
