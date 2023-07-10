@@ -1,14 +1,14 @@
 
+import { Link } from "react-router-dom";
 
 function Nav() { 
     return (
         <nav style={{display: "inline-flex"}}>
-            
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Menu</a></li>
-                <li><a href="">Reservations</a></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/Chicago">About</Link></li>
+                <li><Link to="/Specials">Menu</Link></li>
+                <li><Link to="/BookingPage">Reservations</Link></li>
                 <li><a href="">Order Online</a></li>
                 <li><a href="">Log In</a></li>
             </ul>
