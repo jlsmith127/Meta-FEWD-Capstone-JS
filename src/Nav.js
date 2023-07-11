@@ -7,10 +7,10 @@ function Nav() {
             <ul>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/Chicago">About</Link></li>
-                <li><Link to="/Specials">Menu</Link></li>
-                <li><Link to="/BookingPage">Reservations</Link></li>
-                <li><a href="">Order Online</a></li>
-                <li><a href="">Log In</a></li>
+                <li><Link to="/Menu">Menu</Link></li>
+                <li><Link to="/BookingPage">Make Reservation</Link></li>
+                <li><Link to="/Order">Order Online</Link></li>
+                <li><Link to="/LogIn">Log In</Link></li>
             </ul>
         </nav>
     );

@@ -12,20 +12,40 @@ code {
     monospace;
 }
 
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 4em;
+}
+
 h3 {
+  font-size: 2em;
   padding-left: 100px;
+}
+
+p, figcaption {
+  font-size: 1.5em;
 }
 
 nav li {
   display: inline-flex;
-  align-self: stretch;
-  
 }
 
-footer ul {
-  flex-direction: column;
+.specials {
+  display: inline-flex; 
+  padding: 5%;
 }
 
-footer li {
-  list-style-type: none;
+.CTA {
+  padding: 5%;
+}
+
+.testamonials {
+  padding: 5%;
+}
+
+.chicago {
+  padding: 5%;
 }

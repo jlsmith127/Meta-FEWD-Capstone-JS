@@ -1,6 +1,9 @@
 function Chicago() { 
     return (
-       <p>hi</p> 
+      <article class="chicago">
+       <h1>Little Lemon</h1>
+       <h2>Chicago</h2>
+      </article> 
     );
     }
 

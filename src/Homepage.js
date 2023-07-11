@@ -1,6 +1,7 @@
 import CallToAction from './CallToAction';
 import Specials from './Specials';
 import CustomerSay from './CustomerSay';
+import Chicago from './Chicago';
 
 function Homepage() { 
     return (
@@ -8,6 +9,7 @@ function Homepage() {
             <CallToAction />
             <Specials />
             <CustomerSay />
+            <Chicago />
         </>
     );
     }
