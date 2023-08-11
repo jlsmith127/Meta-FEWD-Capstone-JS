@@ -1,11 +1,8 @@
-import Header from './Header';
-import Nav from './Nav';
-import Footer from './Footer';
-
-function BookingPage() { 
+import BookingForm from "./BookingForm";
+function BookingPage(props) { 
     return (
         <>
-
+            <BookingForm availableTimes = { props.availableTimes }/>
         </>
     );
     }
